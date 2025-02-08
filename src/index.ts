@@ -6,6 +6,7 @@ const app = new Hono();
 
 app.get("/", (c) => {
 	console.log(HELOO);
+	console.log("trigger redeploy");
 	return c.json({
 		hello: "world",
 	});
