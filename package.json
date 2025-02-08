@@ -1,19 +1,17 @@
 {
-  "name": "my-hono",
-  "type": "module",
-  "scripts": {
-    "dev": "tsx watch src/index.ts",
-    "build": "tsc",
-    "start": "node dist/index.js"
-  },
-  "dependencies": {
-    "@hono/node-server": "^1.13.8",
-    "hono": "^4.6.20"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "1.9.4",
-    "@types/node": "^20.11.17",
-    "tsx": "^4.7.1",
-    "typescript": "^5.7.3"
-  }
+	"name": "my-hono",
+	"type": "module",
+	"scripts": {
+		"dev": "tsx watch src/index.ts"
+	},
+	"dependencies": {
+		"@hono/node-server": "^1.13.8",
+		"hono": "^4.6.20"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@types/node": "^20.11.17",
+		"tsx": "^4.7.1",
+		"typescript": "^5.7.3"
+	}
 }
